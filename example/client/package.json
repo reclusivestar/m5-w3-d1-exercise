@@ -1,0 +1,25 @@
+{
+  "name": "react-simple-oauth2-login-example",
+  "version": "0.1.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html --public-url=./",
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "deasync": "^0.1.30",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
